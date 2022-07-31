@@ -1,0 +1,90 @@
+﻿body {
+}
+
+h1 {
+    font-family: Arial;
+    font-style: italic;
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration:underline;
+    margin-top: 24px;
+}
+h2 {
+    font-family: Arial;
+    text-transform: uppercase;
+    margin-top: 50px;
+}
+h3 {
+    font-family: Arial;
+    text-transform: uppercase;
+    margin-top: 50px;
+}
+h4
+{
+    font-family: Arial;
+    text-transform: uppercase;
+    margin-top: 25px
+}
+
+h5 {
+    font-family: Arial;
+    text-transform: uppercase;
+    margin-top: 50px;
+}
+p {
+    font-family: Arial;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.destacado {
+    font-family: Arial;
+    font-style: italic;
+    font-size: 14px;
+    text-align: center;
+    /*text-transform: uppercase;*/
+    color: black;
+}
+/* declaration for our first CSS class */
+.arial-text {
+    font-family: Arial;
+    font-size:14px;
+}
+
+li{ /* Si Fuera Class */
+    margin-bottom: 14px;
+}
+#caja1 {
+    background-color: lightgrey;
+    width: 350px;
+    height: 500px;
+    padding-left: 20px;
+    display:grid ;
+    /*align-items: flex-end;*/
+  }
+#caja2 {
+    border: solid;
+    width: 700px;
+    height: 1150px;
+    padding-left: 20px;
+    position: relative;
+    top: -31.2em;
+    left: 25em;
+}
+#caja3 {
+    /*background-color: lightgrey;*/
+    width: 1000px;
+    height: 150px;
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 40px;
+    /*display: grid;*/
+    line-height: 14px;
+}
+ul {
+    font-family:Arial;
+}
+.negrita{
+    font-weight:bold;
+}
