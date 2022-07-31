@@ -2,44 +2,43 @@
 }
 
 h1 {
-    font-family: Arial;
+    font-family: 'Roboto', sans-serif;
     font-style: italic;
     font-size: 20px;
     text-align: center;
     text-transform: uppercase;
-    text-decoration:underline;
+    text-decoration: underline;
     margin-top: 24px;
 }
 h2 {
-    font-family: Arial;
+    font-family: 'Roboto', sans-serif;
     text-transform: uppercase;
     margin-top: 50px;
 }
 h3 {
-    font-family: Arial;
-    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
     margin-top: 50px;
 }
 h4
 {
-    font-family: Arial;
+    font-family: 'Roboto', sans-serif;
     text-transform: uppercase;
     margin-top: 25px
 }
 
 h5 {
-    font-family: Arial;
+    font-family: 'Roboto', sans-serif;
     text-transform: uppercase;
     margin-top: 50px;
 }
 p {
-    font-family: Arial;
+    font-family: 'Roboto', sans-serif;
     font-size: 14px;
     line-height: 24px;
 }
 
 .destacado {
-    font-family: Arial;
+    font-family: 'Roboto', sans-serif;
     font-style: italic;
     font-size: 14px;
     text-align: center;
@@ -47,12 +46,13 @@ p {
     color: black;
 }
 /* declaration for our first CSS class */
-.arial-text {
-    font-family: Arial;
+.fuentealt {
+    font-family: 'Roboto', sans-serif;
     font-size:14px;
 }
 
-li{ /* Si Fuera Class */
+li { /* Si Fuera Class */
+    font-family: 'Roboto', sans-serif;
     margin-bottom: 14px;
 }
 #caja1 {
@@ -64,7 +64,8 @@ li{ /* Si Fuera Class */
     /*align-items: flex-end;*/
   }
 #caja2 {
-    border: solid;
+    /*border: solid;*/
+    background-color: lightgrey;
     width: 700px;
     height: 1150px;
     padding-left: 20px;
@@ -83,8 +84,20 @@ li{ /* Si Fuera Class */
     line-height: 14px;
 }
 ul {
-    font-family:Arial;
+    font-family:'Roboto', sans-serif;
 }
 .negrita{
     font-weight:bold;
+}
+.gradbody {
+    background: #b1a7a7;
+    background: linear-gradient(158deg,#b1a7a7 10%, rgba(185,192,188,0.53) 54%, rgba(0,255,32,0.35) 98%);
+    background: -webkit-linear-gradient(158deg,#b1a7a7 10%, rgba(185,192,188,0.53) 54%, rgba(0,255,32,0.35) 98%);
+    background: -moz-linear-gradient(158deg,#b1a7a7 10%, rgba(185,192,188,0.53) 54%, rgba(0,255,32,0.35) 98%);
+}
+.bordered {
+    border-radius: 1px 52px 52px 51px;
+    -webkit-border-radius: 1px 52px 52px 51px;
+    -moz-border-radius: 1px 52px 52px 51px;
+    border: 5px solid rgba(75,65,65,0.37);
 }
