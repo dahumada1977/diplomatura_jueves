@@ -1,0 +1,33 @@
+﻿body
+{
+}
+.contenedor2 {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 450px;
+    height: 450px;
+    border: 2px solid;
+    border-color: black;
+    align-items: center;
+    margin-left: 20%;
+    margin-top: 10%;
+ }
+.item {
+    display:flex;
+    justify-content:center;/*importante para centrar el texto hacia el medio de los laterales verticales*/
+    align-items:center;/*importante para centrar el texto en referencia de los laterales horizontales */
+    width:33.333%;
+    height:33.333%;
+}
+#verde {
+    background-color:green;
+    color:white;
+}
+#rojo {
+    background-color: red;
+    color: white;
+}
+#azul {
+    background-color: blue;
+    color: white;
+}
