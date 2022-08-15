@@ -1,0 +1,106 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+    background-color: dimgrey;
+    font-size: 100%;
+}
+
+#contenedor {
+    width: 800px;
+    background: #8FA68E;
+    margin-right: auto;
+    margin-left: auto;
+    overflow: hidden;
+}
+
+nav {
+    background: #CC3910;
+    float: left;
+    width: 160px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    color: #F1F2C0;
+    text-decoration: none;
+}
+
+section {
+    background: #F1F2C0;
+    float: left;
+    margin: 0 0 0 25px;
+    width: 400px;
+}
+
+aside {
+    background: #CCC59E;
+    float: right;
+    width: 190px;
+}
+
+@media (max-width: 700px) {
+    body {
+        background-color: #808080;
+        font-size: 150%;
+    }
+
+    #contenedor {
+        width: 100%;
+        float: left;
+        background: #8FA68E;
+        overflow: hidden;
+        border-bottom: 2px solid;
+        border-color: dimgray;
+    }
+
+    nav {
+        background: #c17845;
+        float: left;
+        width: 100%;
+        text-align: justify;
+        border-bottom: 3px solid;
+        border-top: 3px solid;
+        border-color: dimgray;
+    }
+
+    section {
+        background: #efe08c;
+        float: left;
+        margin: auto;
+        text-align: justify;
+        width: 100%;
+        border-bottom: 3px solid;
+        border-color: dimgray;
+    }
+
+    aside {
+        background: #d19d9d;
+        *float: left;
+        text-align: justify;
+        width: 100%;
+        border-bottom: 3px solid;
+        border-color: dimgray;
+    }
+
+    .b {
+        text-align: left;
+        margin-left: 5%;
+    }
+
+    p {
+        padding: 0px 5% 0px 5%;
+    }
+
+    a:hover {
+        color: blue;
+        text-decoration:underline;
+        cursor:pointer;
+        font-style:oblique;
+        font-weight: bold;
+        
+    }
+}
