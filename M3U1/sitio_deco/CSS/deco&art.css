@@ -1,0 +1,96 @@
+﻿body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+}
+header {
+    /*background-image: url("/img/fondo.png") ;*/
+    margin-left:0%;  
+    width: 100%;
+    display: flex;
+    background-color: peachpuff;
+}
+header h1{
+    color:salmon;
+    font-size:40px;
+    font-weight:100;
+    font-style:italic;
+    display:inline-block;
+    position:relative;
+    margin-left:20px;
+    bottom:35%;
+}
+nav{
+    background-color:darksalmon;
+    margin-bottom:20px;
+}
+nav ul{
+    display:flex;
+    list-style:none;
+    margin:0;
+    padding:0;
+
+}
+nav ul li{
+    flex-grow:1;
+}
+nav ul li a{
+    text-decoration:none;
+    color:brown;
+    display:block;
+    text-align:center;
+    padding: 3px 6px;
+}
+nav ul li a:hover{
+    background-color:chocolate;
+}
+footer{
+    background-color:burlywood;
+    padding: 50px 0px;
+    text-align:center;
+    clear:both;
+    margin-top:10px;
+}
+.holder{
+    max-width:960px;
+    margin: 0 auto;
+}
+nav ul li a.activo {
+    background-color: chocolate;
+}
+h2 {
+    color: salmon;
+    font-weight: 400;
+    padding: 0 6px 0 6px;
+}
+.bienvenidos {
+    width: 75%;
+    box-sizing: border-box;
+    background-color: yellow;
+    height: 150;
+    margin-left:2%;
+}
+.testimonios {
+    width: 25%;
+    background-color: orange;
+    height:150px;
+    margin-right:1.8%;
+    text-align:justify;
+    
+}
+.columnas {
+    display:flex;
+    justify-content:space-between;
+    justify-items:center;
+}
+.columnas2 {
+    display: flex;
+    justify-content: normal;
+    padding-left:2%;
+} 
+#mod1text {
+    font-style: oblique;
+}
+p {
+    padding: 0 6px 0 6px;
+}
