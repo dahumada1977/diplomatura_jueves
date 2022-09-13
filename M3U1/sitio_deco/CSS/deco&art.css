@@ -3,94 +3,176 @@
     font-size: 16px;
     line-height: 20px;
 }
+
 header {
     /*background-image: url("/img/fondo.png") ;*/
-    margin-left:0%;  
     width: 100%;
     display: flex;
     background-color: peachpuff;
 }
-header h1{
-    color:salmon;
-    font-size:40px;
-    font-weight:100;
-    font-style:italic;
-    display:inline-block;
-    position:relative;
-    margin-left:20px;
-    bottom:35%;
-}
-nav{
-    background-color:darksalmon;
-    margin-bottom:20px;
-}
-nav ul{
-    display:flex;
-    list-style:none;
-    margin:0;
-    padding:0;
 
+    header h1 {
+        color: salmon;
+        font-size: 40px;
+        font-weight: 100;
+        font-style: italic;
+        display: inline-block;
+        position: relative;
+        margin-left: 20px;
+        bottom: 35%;
+    }
+
+nav {
+    background-color: darksalmon;
+    margin-bottom: 20px;
 }
-nav ul li{
-    flex-grow:1;
+
+    nav ul {
+        display: flex;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
+        nav ul li {
+            flex-grow: 1;
+        }
+
+            nav ul li a {
+                text-decoration: none;
+                color: brown;
+                display: block;
+                text-align: center;
+                padding: 3px 6px;
+            }
+
+                nav ul li a:hover {
+                    background-color: chocolate;
+                }
+/*main {
+    max-width: 960px;
+    margin: 0 auto;
+}*/
+footer {
+    background-color: burlywood;
+    padding: 20px 0px;
+    margin-top: 0.5%;
+    text-align: center;
+    clear: both;
 }
-nav ul li a{
-    text-decoration:none;
-    color:brown;
-    display:block;
-    text-align:center;
-    padding: 3px 6px;
-}
-nav ul li a:hover{
-    background-color:chocolate;
-}
-footer{
-    background-color:burlywood;
-    padding: 50px 0px;
-    text-align:center;
-    clear:both;
-    margin-top:10px;
-}
-.holder{
-    max-width:960px;
+
+.holder {
+    max-width: 960px;
     margin: 0 auto;
 }
+
 nav ul li a.activo {
     background-color: chocolate;
 }
+
 h2 {
     color: salmon;
     font-weight: 400;
     padding: 0 6px 0 6px;
 }
+
 .bienvenidos {
     width: 75%;
     box-sizing: border-box;
     background-color: yellow;
-    height: 150;
-    margin-left:2%;
+    margin-left: 0%;
+    font-size: 20px;
 }
+
 .testimonios {
     width: 25%;
     background-color: orange;
-    height:150px;
-    margin-right:1.8%;
-    text-align:justify;
-    
+    margin-right: 0;
+    text-align: justify;
 }
+
 .columnas {
-    display:flex;
-    justify-content:space-between;
-    justify-items:center;
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    padding: 5px 0px 0px 0%;
 }
+
 .columnas2 {
     display: flex;
     justify-content: normal;
-    padding-left:2%;
-} 
+    justify-items: center;
+    padding: 0px 0px 0px 0%;
+}
+
 #mod1text {
     font-style: oblique;
 }
-p {
+
+main p {
     padding: 0 6px 0 6px;
 }
+
+.testimonio {
+    background-color: gray;
+}
+
+    .testimonio .cita {
+        font-weight: bold;
+        font-style: italic;
+        font-size: 22px;
+        background-color: yellow;
+        display: block;
+        margin: 3px;
+    }
+
+    .testimonio .autor {
+        font-size: 10px;
+        text-align: center;
+        background-color: lightcoral;
+        display: block;
+        margin: 12px 0;
+    }
+
+/*fin de home*/
+
+/*inicio de nosotros*/
+.historia p{
+    font-size:12px;
+    /*0.7rem*/
+}
+.persona{
+    border: 1px solid darksalmon;
+    border-radius: 5px;
+    width:18%;
+    text-align:center;
+    padding:13px;
+    box-sizing:border-box;
+    /*background-color:orange;*/
+}
+.personas{
+    display:flex;
+    justify-content:space-evenly;
+ }
+.persona img{
+    border-radius:50%;
+    max-width:60%;
+    box-shadow: 0 0 5px #000000 rgb(0,0,0,0.5);
+    
+}
+.persona h5,
+.persona h6{
+    margin:0;
+    font-weight:normal;
+    color:salmon;
+}
+.persona p{
+    color:#666;
+    font-size:10px;
+}
+
+/*fin de nosotros*/
+
+/* inicio servicios*/
+
+/*fin servicios*/
