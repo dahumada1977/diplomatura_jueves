@@ -61,6 +61,8 @@ footer {
     clear: both;
 }
 
+/* inicio de home */
+
 .holder {
     max-width: 960px;
     margin: 0 auto;
@@ -137,6 +139,7 @@ main p {
 /*fin de home*/
 
 /*inicio de nosotros*/
+
 .historia p{
     font-size:12px;
     /*0.7rem*/
@@ -174,5 +177,23 @@ main p {
 /*fin de nosotros*/
 
 /* inicio servicios*/
-
+.servicio {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 16px;
+    margin: 16px 0;
+    display: flex;
+    grid-gap: 32px;
+    align-items: center;
+}
+    .servicio .info h4 {
+        color: darkorange;
+        font-weight: 500;
+        font-style: italic;
+        border-bottom: 1px solid #a746a8;
+        padding-bottom: 10px;
+    }
+    .servicio .info p{
+        font-size:13px;
+    }
 /*fin servicios*/
