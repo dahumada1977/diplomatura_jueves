@@ -49,10 +49,7 @@ nav {
                 nav ul li a:hover {
                     background-color: chocolate;
                 }
-/*main {
-    max-width: 960px;
-    margin: 0 auto;
-}*/
+
 footer {
     background-color: burlywood;
     padding: 20px 0px;
@@ -81,14 +78,14 @@ h2 {
 .bienvenidos {
     width: 75%;
     box-sizing: border-box;
-    background-color: yellow;
+    background-color: none;
     margin-left: 0%;
     font-size: 20px;
 }
 
 .testimonios {
     width: 25%;
-    background-color: orange;
+    background-color: none;
     margin-right: 0;
     text-align: justify;
 }
@@ -116,22 +113,22 @@ main p {
 }
 
 .testimonio {
-    background-color: gray;
+    background-color: darksalmon;
 }
 
     .testimonio .cita {
         font-weight: bold;
         font-style: italic;
-        font-size: 22px;
-        background-color: yellow;
-        display: block;
+        font-size: 18px;
+        background-color: darksalmon;
+        display: block;/*importante para que el texto quede en bloque y no junto al lado del otro*/
         margin: 3px;
     }
 
     .testimonio .autor {
         font-size: 10px;
         text-align: center;
-        background-color: lightcoral;
+        background-color: salmon;
         display: block;
         margin: 12px 0;
     }
@@ -178,7 +175,7 @@ main p {
 
 /* inicio servicios*/
 .servicio {
-    border: 1px solid #ccc;
+    border: 1px solid salmon;
     border-radius: 10px;
     padding: 16px;
     margin: 16px 0;
@@ -190,10 +187,20 @@ main p {
         color: darkorange;
         font-weight: 500;
         font-style: italic;
-        border-bottom: 1px solid #a746a8;
+        border-bottom: 1px solid #c768c8;
         padding-bottom: 10px;
     }
     .servicio .info p{
         font-size:13px;
+        line-height:19px;
     }
+    .servicio img{
+        border-radius:13px;
+        display: block;
+        max-width: 225px;
+    }
+    .servicio:nth-child(2n+1){
+        flex-direction:row-reverse;
+    }
+
 /*fin servicios*/
