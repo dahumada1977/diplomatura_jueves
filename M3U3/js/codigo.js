@@ -20,12 +20,12 @@ if (Number.isNaN(distancia)) {
 /*Nota : no encuentro una forma facil de solucionar mostrar correctamente palabras con acento*/
 /*Ejercicio N°2*/
 
-const elementos = [10,8090,1010,10500,15347,105300205,30000,15415,345670];
+const elementos = [10, 8090, 1010, 405000, 15347, 1100, 30000, 15415, 345670];
 var x
-/*console.log(elementos.length)*/
+console.log(elementos.length+1)
 
-for (let i = 0; i <10; i++) {document.write("<br> Ejercicio 2 - item: "+elementos[i]+"<br>")
-    for (let j = 0; j <10; j++) {
+for (let i = 0; i <elementos.length; i++) {document.write("<br> Ejercicio 2 - item: "+elementos[i]+"<br>")
+    for (let j = 0; j<elementos.length; j++) {
         if (elementos[i] < elementos[j]) { x = elementos[j]}
     }
 }
