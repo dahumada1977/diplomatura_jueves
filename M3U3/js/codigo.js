@@ -21,6 +21,7 @@ if (Number.isNaN(distancia)) {
 /*Ejercicio N°2*/
 
 const elementos = [10, 8090, 1010, 405000, 15347, 1100, 30000, 15415, 345670];
+const mayor = 0;
 var x
 console.log(elementos.length+1)
 
@@ -29,4 +30,12 @@ for (let i = 0; i <elementos.length; i++) {document.write("<br> Ejercicio 2 - it
         if (elementos[i] < elementos[j]) { x = elementos[j]}
     }
 }
-document.write("<br> Ejercicio 2 - El mayor numero del array es : "+x+"<br>")
+document.write("<br> Ejercicio 2 - El mayor numero del array es : " + x + "<br>")
+
+/* ejemplo dictado por la profesora, no es necesario utilizar 2 bucles, sino uno solo*/
+for (let i = 0; i < elementos.length; i++) {
+    if (elementos[i]>mayor) {
+        mayor=elementos[i]
+    }
+}
+document.write(`<br> Ejercicio 2 - El mayor numero de ${elementos} es :  ${mayor}  <br>`)
