@@ -6,23 +6,44 @@
     <title>Ejercicios M3U4</title>
     <link rel="stylesheet" href="Ejercicios_M3U4.css">
 </head>
-<body>
-    <div class="destacados">
+<body class="cuadrados">
+            
         <div id="col1">Rojo</div>
         <div id="col2">Verde</div>
         <div id="col3">Azul</div>
-    </div>
-    <div class="botones">
-        <!--<input id="Color" type="button" value="Color" />-->
-        <!--<input id="Recuadro" type="button" value="Recuadro" />-->
-        <!--<input id="Reset" type="button" value="Reset" />-->
-    </div>
-    <script>
-        const elemdiv = document.getElementsByClassName('destacados'); {
-            alert(elemdiv.item(0).textContent);
-        }
-       console.log(elemdiv)
+        <div>
+            <textarea name="message" onkeyup="countChars(this);"></textarea>
+            <p id="charNum">0 characters</p>
+        </div>
+    
 
+    <script>
+        function countChars(obj) {
+            var maxLength = 100;
+            var strLength = obj.value.length;
+            var charRemain = (maxLength - strLength);
+
+            if (charRemain < 0) {
+                document.getElementById("charNum").innerHTML = '<span style="color: red;">You have exceeded the limit of ' + maxLength + ' characters</span>';
+            } else {
+                document.getElementById("charNum").innerHTML = charRemain + ' characters remaining';
+            }
+        }
+
+        const col1 = document.getElementsByClassName('cuadrados')[0];
+        col1.children.item(0).addEventListener('click', function () {
+            col1.classList.add('rojo'); col1.classList.remove('verde', 'azul')
+        });
+        const col2 = document.getElementsByClassName('cuadrados')[0];
+
+        col2.children.item(1).addEventListener('click', function () {
+            col2.classList.add('verde'); col2.classList.remove('rojo', 'azul')
+        });
+        const col3 = document.getElementsByClassName('cuadrados')[0];
+
+        col3.children.item(2).addEventListener('click', function () {
+            col3.classList.add('azul'); col3.classList.remove('rojo', 'verde')
+        });
 
     </script>
 </body>

@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Ejercicios M3U4</title>
+    <link rel="stylesheet" href="Ejercicio2_M3U4.css">
+</head>
+<body>
+ 
+    <script>
+        var Alumno
+        var Nota
+        const alumnos =
+            [{ nombre: 'Juan Gomez', nota: 7 },
+            { nombre: 'Pedro Rodriguez', nota: 4 },
+            { nombre: 'Roxana García', nota: 8 },
+            { nombre: 'Luciano Lopez', nota: 5 },
+            { nombre: 'Fernanda Gimenez', nota: 6 },
+            { nombre: 'Florencia Martinez', nota: 10 },
+            { nombre: 'Raul Sanchez', nota: 7 },
+            { nombre: 'Sandra Figueroa', nota: 8 }];
+
+        document.write(`LISTA DE ALUMNOS APROBADOS <br>`)
+        for(let i = 0; i < alumnos.length; i++) {
+            if (alumnos[i].nota > 6)
+            {
+                Alumno = alumnos[i].nombre; Nota = alumnos[i].nota;
+                document.write(`<br> Alumno : ${Alumno} - Nota : ${Nota} <br>`)
+            }
+           }
+        
+    </script>
+</body>
+</html>
